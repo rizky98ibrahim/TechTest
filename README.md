@@ -41,9 +41,9 @@ Soal logical test terdiri dari 4 buah soal yang harus dikerjakan menggunakan bah
 
 1. [1_array_loop.php](logical_test/1.%20Array%20Loop/1_array_loop.php
 ): Jawaban soal array loop.
-2. [2_mysql_query.sql](logical_test/2_mysql_query.sql): Jawaban soal MySQL query.
-3. [3_operator_logic.php](logical_test/3_operator_logic.php): Jawaban soal operator logic.
-4. [4_looping_condition.php](logical_test/4_looping_condition.php): Jawaban soal looping condition.
+2. [2_mysql_query.sql](logical_test/2.%20MySQL%20Query/2_mysql_query.sql): Jawaban soal MySQL query.
+3. [3_operator_logic.php](logical_test/3.%20Operator%20Logic/3_operator_logic.php): Jawaban soal operator logic.
+4. [4_looping_condition.php](logical_test/4.%20Looping%20Condition/4_looping_condition.php): Jawaban soal looping condition.
 
 ## Soal Bonus Case
 
@@ -53,12 +53,12 @@ Bonus case adalah soal tambahan yang memiliki nilai tambah jika dikerjakan. Soal
 
 Buatlah sebuah aplikasi sederhana dengan fitur-fitur berikut ini:
 
-- Login: Fitur untuk masuk ke dalam aplikasi.
-- CRUD Instansi: Fitur untuk melakukan operasi Create, Read, Update, dan Delete pada data instansi.
-- Logout: Fitur untuk keluar dari aplikasi.
-- Search/Filter: Fitur untuk mencari dan menyaring data instansi pada halaman daftar instansi.
 
-Aspek penilaian meliputi fungsi dari masing-masing fitur, rancangan database, dan user interface.
+- [x] Login: Fitur untuk masuk ke dalam aplikasi.
+- [x] Logout: Fitur untuk keluar dari aplikasi.
+- [ ] Register: Fitur untuk mendaftarkan akun baru.
+- [ ] CRUD Instansi: Fitur untuk mengelola data instansi.
+- [ ] Search/Filter: Fitur untuk mencari dan menyaring data instansi pada halaman daftar instansi.
 
 ## Database Design
 
@@ -71,24 +71,26 @@ Berikut adalah beberapa screenshot hasil output dari penyelesaian soal-soal dan 
 - [Screenshot 1]
 - [Screenshot 2]
 - [Screenshot 3]
-- ...
+- [Screenshot 4]
+- [Screenshot 5]
 
-## Petunjuk Penggunaan
+## Petunjuk Penggunaan Bonus Case
 
 Tuliskan petunjuk penggunaan proyek ini di sini. Misalnya:
 
 1. Clone repositori ini ke dalam direktori lokal.
-2. Impor file database menggunakan [nama_file_database].sql.
-3. Konfigurasikan koneksi database di file [nama_file_konfigurasi].
-4. Jalankan aplikasi dengan membuka [nama_file_index.php] di web browser.
-5. Gunakan fitur-fitur aplikasi sesuai dengan kebutuhan.
+2. Impor file database menggunakan 
+3. Buka file [config.php](bonus_case/config.php) dan sesuaikan konfigurasi database dengan konfigurasi database Anda.
+4. Buka web browser dan akses halaman [index.php](bonus_case/index.php).
+5. Lakukan login menggunakan username dan password berikut ini:
+    - Username: admin
+    - Password: admin
 
-## Lisensi
+## Contact
 
-Tuliskan lisensi proyek ini di sini. Misalnya:
+Jika ada pertanyaan lebih lanjut, silakan hubungi saya melalui :
 
-Proyek ini dilisensikan di bawah Lisensi MIT. Silakan lihat berkas [LICENSE](LICENSE) untuk informasi lebih lanjut.
-
----
-
-Silakan sesuaikan dan tambahkan informasi yang relevan dengan proyek Anda. Jangan lupa untuk menyertakan file-file jawaban dan screenshot sesuai dengan petunjuk yang diberikan. Semoga berhasil!
+[![whatsapp](https://img.shields.io/badge/whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6287808740020)
+[![gmail](https://img.shields.io/badge/gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rizky98ibrahim@gmail.com)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rizky98ibrahim)
+[![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rizky98ibrahim/)
