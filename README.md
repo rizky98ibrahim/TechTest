@@ -30,9 +30,7 @@ Proyek ini memiliki struktur direktori sebagai berikut:
     - check_login.php
     - bonus_case.sql
 - screenshots/
-    - [Screenshots hasil output]
-- database_design/
-    - [File-file desain database]
+    - [Screenshots hasil output & Database design]
 ```
 
 ## Soal Logical Test
@@ -56,9 +54,13 @@ Buatlah sebuah aplikasi sederhana dengan fitur-fitur berikut ini:
 
 - [x] Login: Fitur untuk masuk ke dalam aplikasi.
 - [x] Logout: Fitur untuk keluar dari aplikasi.
-- [ ] Register: Fitur untuk mendaftarkan akun baru.
-- [ ] CRUD Instansi: Fitur untuk mengelola data instansi.
-- [ ] Search/Filter: Fitur untuk mencari dan menyaring data instansi pada halaman daftar instansi.
+- [x] Register: Fitur untuk mendaftarkan akun baru.
+- [ ] CRUD Instansi: 
+    - [x] Create: Fitur untuk menambahkan data instansi.
+    - [x] Read: Fitur untuk melihat daftar instansi.
+    - [ ] Update: Fitur untuk mengubah data instansi.
+    - [ ] Delete: Fitur untuk menghapus data instansi.
+- [x] Search/Filter: Fitur untuk mencari dan menyaring data instansi pada halaman daftar instansi.
 
 ## Database Design
 
@@ -68,15 +70,17 @@ Rancangan database yang digunakan dalam proyek ini dapat ditemukan dalam folder 
 
 Berikut adalah beberapa screenshot hasil output dari penyelesaian soal-soal dan implementasi fitur-fitur dalam proyek ini:
 
-- [Screenshot 1]
-- [Screenshot 2]
-- [Screenshot 3]
-- [Screenshot 4]
-- [Screenshot 5]
+- [Screenshot 1](screenshots/Soal-1.png)
+- [Screenshot 2](screenshots/Soal-2.png)
+- [Screenshot 3](screenshots/Soal-3.png)
+- [Screenshot 4](screenshots/Soal-4.png)
+- [Screenshot 5](screenshots/Diagram.png)
+- [Screenshot 6](screenshots/Login.png)
+- [Screenshot 7](screenshots/Register.png)
+- [Screenshot 8](screenshots/Dashboard-1.png)
+- [Screenshot 9](screenshots/Dashboard-2.png)
 
 ## Petunjuk Penggunaan Bonus Case
-
-Tuliskan petunjuk penggunaan proyek ini di sini. Misalnya:
 
 1. Clone repositori ini ke dalam direktori lokal.
 2. Impor file database menggunakan 
@@ -84,7 +88,7 @@ Tuliskan petunjuk penggunaan proyek ini di sini. Misalnya:
 4. Buka web browser dan akses halaman [index.php](bonus_case/index.php).
 5. Lakukan login menggunakan username dan password berikut ini:
     - Username: admin
-    - Password: admin
+    - Password: password
 
 ## Contact
 

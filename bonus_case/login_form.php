@@ -24,14 +24,15 @@ if ($result) {
 
         // * Set session
         $_SESSION['username'] = $row['username'];
+        $_SESSION['full_name'] = $row['full_name'];
         $_SESSION['status'] = "login";
 
         // * Redirect to Dashboard
-        header("Location: dashboard/index.php?message=success");
+        header("Location: dashboard/index.php");
         exit;
     } else {
         // * If failed, redirect back to index.php with 'message' parameter
-        header("Location: index.php?message=failed");
+        header("Location: index.php?message=failed-login");
         exit;
     }
 } else {
@@ -41,3 +42,5 @@ if ($result) {
 
 // * Close connection
 $conn->close();
+
+?>

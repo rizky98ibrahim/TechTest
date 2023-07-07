@@ -1,13 +1,12 @@
 <?php
 // ! Database Credentials
-// TODO : Fill with your own database credentials
-$host = 'localhost'; // * Hostname
-$username = 'root'; // * Database username
-$password = ''; // * Database password
-$database = 'ecampuz'; // * Database name
+$DB_HOST = 'localhost';
+$DB_USERNAME = 'root';
+$DB_PASSWORD = '';
+$DB_DATABASE = 'bonus_case';
 
 // ! Create Connection
-$conn = new mysqli($host, $username, $password, $database);
+$conn = new mysqli($DB_HOST, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
 
 // ! Check Connection
 if ($conn->connect_error) {
