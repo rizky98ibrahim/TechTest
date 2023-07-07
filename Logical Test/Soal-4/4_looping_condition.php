@@ -2,7 +2,7 @@
 // ! Looping Condition
 
 // * Initialize $currentLine
-$currentLine = ""; //
+$currentLine = ""; 
 
 for ($i = 1; $i <= 50; $i++) {
     // * Check if $i is divisible by 3 and 5
