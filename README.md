@@ -1,13 +1,12 @@
-# README
-**Technical Test Web Developer PT Solusi Kampus Indonesia**.
+# Technical Test - PT Solusi Kampus Indonesia
 
-## Tentang Proyek
+## About the Project
 
-Proyek ini adalah tes teknis untuk posisi web developer di PT Solusi Kampus Indonesia. Terdapat 5 buah soal yang terdiri dari 4 buah soal wajib dan 1 buah soal bonus. Soal-soal tersebut harus dikerjakan menggunakan bahasa pemrograman PHP dan database MySQL.
+This project is a technical test for a web developer position at PT Solusi Kampus Indonesia. It consists of five questions, including four mandatory questions and one bonus question. The questions must be completed using the PHP programming language and MySQL database.
 
-## Struktur Proyek
+## Project Structure
 
-Proyek ini memiliki struktur direktori sebagai berikut:
+The project structure is as follows:
 
 ```
 - logical_test/
@@ -30,45 +29,42 @@ Proyek ini memiliki struktur direktori sebagai berikut:
     - check_login.php
     - bonus_case.sql
 - screenshots/
-    - [Screenshots hasil output & Database design]
+    - [Screenshots]
 ```
 
-## Soal Logical Test
+## Logical Test Questions
 
-Soal logical test terdiri dari 4 buah soal yang harus dikerjakan menggunakan bahasa pemrograman PHP dan database MySQL. Jawaban dari setiap soal disimpan dalam file tersendiri dengan ekstensi sesuai dengan materi soalnya. File jawaban beserta screenshot hasil outputnya harus ditempatkan dalam folder "logical_test".
+The logical test questions consist of four questions that need to be solved using the PHP programming language and MySQL database. The answers to each question are stored in separate files with extensions corresponding to the respective questions. The answer files, along with screenshots of the output results, should be placed in the "logical_test" folder.
 
 1. [1_array_loop.php](logical_test/1.%20Array%20Loop/1_array_loop.php
-): Jawaban soal array loop.
-2. [2_mysql_query.sql](logical_test/2.%20MySQL%20Query/2_mysql_query.sql): Jawaban soal MySQL query.
-3. [3_operator_logic.php](logical_test/3.%20Operator%20Logic/3_operator_logic.php): Jawaban soal operator logic.
-4. [4_looping_condition.php](logical_test/4.%20Looping%20Condition/4_looping_condition.php): Jawaban soal looping condition.
+): The answer to the loop array question.
+2. [2_mysql_query.sql](logical_test/2.%20MySQL%20Query/2_mysql_query.sql): Answers to MySQL queries.
+3. [3_operator_logic.php](logical_test/3.%20Operator%20Logic/3_operator_logic.php):  Answers to the logic operator questions.
+4. [4_looping_condition.php](logical_test/4.%20Looping%20Condition/4_looping_condition.php): Answers to the looping condition question.
 
-## Soal Bonus Case
+## Bonus Case Questions
 
-Bonus case adalah soal tambahan yang memiliki nilai tambah jika dikerjakan. Soal ini tidak wajib dikerjakan, tetapi diperkenankan menggunakan framework jika diperlukan. Jawaban dari soal bonus case harus ditempatkan dalam folder "bonus_case". 
+The bonus case questions provide an opportunity for additional work that adds value to the project. It is not mandatory to complete these questions, but you may use a framework if necessary. The answers to the bonus case questions should be placed in the "bonus_case" folder.
 
 ### Spesifikasi Bonus Case
 
-Buatlah sebuah aplikasi sederhana dengan fitur-fitur berikut ini:
+### Bonus Case Specifications
 
+A simple application with the following features:
 
-- [x] Login: Fitur untuk masuk ke dalam aplikasi.
-- [x] Logout: Fitur untuk keluar dari aplikasi.
-- [x] Register: Fitur untuk mendaftarkan akun baru.
-- [ ] CRUD Instansi: 
-    - [x] Create: Fitur untuk menambahkan data instansi.
-    - [x] Read: Fitur untuk melihat daftar instansi.
-    - [ ] Update: Fitur untuk mengubah data instansi.
-    - [ ] Delete: Fitur untuk menghapus data instansi.
-- [x] Search/Filter: Fitur untuk mencari dan menyaring data instansi pada halaman daftar instansi.
-
-## Database Design
-
-Rancangan database yang digunakan dalam proyek ini dapat ditemukan dalam folder "database_design".
+- [x] Login: Feature to enter into the application.
+- [x] Logout: Feature to exit the application.
+- [x] Register: Feature to register a new account.
+- [x] Agencies CRUD: Feature to manage agency data.
+     - [x] Create: Feature to add new agency data.
+     - [x] Read: Provides a list of agencies.
+     - [ ] Update: Allows the modification of agency data.
+     - [ ] Delete: Enables the deletion of agency data.
+- [x] Search/Filter: Provides search and filter functionality for agency data on the agency list page.
 
 ## Screenshots
 
-Berikut adalah beberapa screenshot hasil output dari penyelesaian soal-soal dan implementasi fitur-fitur dalam proyek ini:
+The following screenshots showcase the output results of the problem-solving and feature implementation in this project:
 
 - [Screenshot 1](screenshots/Soal-1.png)
 - [Screenshot 2](screenshots/Soal-2.png)
@@ -80,21 +76,22 @@ Berikut adalah beberapa screenshot hasil output dari penyelesaian soal-soal dan 
 - [Screenshot 8](screenshots/Dashboard-1.png)
 - [Screenshot 9](screenshots/Dashboard-2.png)
 
-## Petunjuk Penggunaan Bonus Case
+## Instructions for Using Bonus Case
 
-1. Clone repositori ini ke dalam direktori lokal.
-2. Impor file database menggunakan 
-3. Buka file [config.php](bonus_case/config.php) dan sesuaikan konfigurasi database dengan konfigurasi database Anda.
-4. Buka web browser dan akses halaman [index.php](bonus_case/index.php).
-5. Lakukan login menggunakan username dan password berikut ini:
-    - Username: admin
-    - Password: password
+1. Clone this repository into local directory.
+2. Import the database file using
+3. Open the [config.php](bonus_case/config.php) file and adjust the database configuration to your database configuration.
+4. Open a web browser and access the [index.php](bonus_case/index.php) page.
+5. Login using the following username and password:
+     - Username: admin
+     - Passwords: password
 
 ## Contact
 
-Jika ada pertanyaan lebih lanjut, silakan hubungi saya melalui :
+If you have any further questions, feel free to contact me through:
 
-[![whatsapp](https://img.shields.io/badge/whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6287808740020)
-[![gmail](https://img.shields.io/badge/gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rizky98ibrahim@gmail.com)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rizky98ibrahim)
-[![linkedin](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rizky98ibrahim/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6287808740020)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rizky98ibrahim@gmail.com)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/rizky98ibrahim)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rizky98ibrahim/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instragram.com/rizky98ibrahim)
